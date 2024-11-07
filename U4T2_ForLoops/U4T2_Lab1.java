@@ -1,8 +1,14 @@
 public class U4T2_Lab1 {
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-
-        }
-    }
-}
+        StringLoops loops = new StringLoops();
+        loops.multiPrint("hello", 4);
+        loops.multiPrint("beetlejuice", 3);
+        loops.multiPrint("hi there", 2);
+        loops.multiPrint("boop!", 1);
+        loops.multiPrint("dance party", 0);
+        loops.multiPrint("anything", -4);
+      
+      
+    }        
+        
+} 
